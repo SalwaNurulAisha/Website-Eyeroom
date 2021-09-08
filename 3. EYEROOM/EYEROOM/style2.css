@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+}
+
+.main {
+    width: 100%;
+    background-image:url(./images/corona-5002341__340.webp);
+    background-color:;
+    background-position: left;
+    background-size:cover ;
+    height: 100vh;
+    
+}
+
+.navbar {
+    background-color: #52734D;
+}
+
+p.navbar-brand {
+    font-size: 35px;
+    color: white;
+    font-family: 'brush script mt';
+    justify-items:;
+    margin-left:20px;
+    margin: auto;
+    text-shadow: ;
+}
+
+.container{
+    margin-top: 10px;
+    width: 600px;
+    background-color:#ffffff;
+    margin: ;
+    padding: 30px;
+    box-shadow: 0 0 10px rgba(0,0,0,.3);
+    border-radius: 3%;
+    background-color: #91C788;
+    background-image: url(../);
+}
+
+.gallery li {
+    width: 255px;
+    height: 255px;
+    border-radius: %;
+    float: ;
+    position: relative;
+    margin-right: px;
+    margin-bottom: px;
+    border:;
+    overflow: hidden;
+    margin: auto;
+}
+
+.gallery li span {
+    display: block;
+    background-color: rgba(200,200,200,.5);
+    width: 255px;
+    height: 255px;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+    float: center;
+    line-height: 170px;
+    color: #333;
+    text-shadow: 1px 1px 1px #ffffff;
+    opacity: 0;
+    transform: scale(0) rotate(0);
+    transition: .3s;
+}
+
+.gallery li a:hover span {
+    opacity: 1;
+    transform: scale(1) rotate(360deg);
+}
+
+.clear {
+    clear: both;
+}
+
+.gallery li img {
+    width: 255px;
+    height: 255px;
+    border-radius: 50%;
+}
+
+a.tbl-biru {
+    background: #000000;
+    border-radius: 20px;
+    margin-top: px;
+    padding: 15px 20px 15px 20px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tbl-biru:hover {
+    background: #b9b8b9;
+    text-decoration: none;
+}
+
+.dropdown {
+    margin-right: 60px;
+}
+
+a.dropdown-item img{
+    width: 20px;
+    height: 20px
+}
+
+.deskripsi {
+    font-family:'Times New Roman', Times, serif;
+    color: black;
+}
+
+.card {
+    justify-content: space-evenly;
+    margin: auto;
+    margin-right: 50px;
+    margin-top:20px;
+}
+
+.container-fluid img {
+    width: 80px;
+    height:60px
+}
+
+#play {
+    width: 64px;
+    height:64px;
+    float: right;
+    border-radius: 50%;
+    position: fixed;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.judesk {
+    font-size: 40px;
+    font-family: cursive;
+    font-weight: bold;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.judesk img{
+    width:200px;
+}
+
+.button-tab {
+    margin-right: 110px;
+    margin-left: 110px;
+}
