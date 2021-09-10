@@ -11,7 +11,7 @@
     text-decoration: none;
     margin: 0px;
     padding: 0px;
-    background-color: #DDFFBC;
+    background-color:#DDFFBC;
     font-family: 'Montserrat';
     color: #432C81;
 }
@@ -24,18 +24,26 @@
     position: relative;
 }
 .login {
-    margin-top: 200px;
+    margin-top: 50px;
     margin-left: 100px;
 }
 .login h1 {
-    font-size: 32px;
+    margin-top: 70px;
+    font-size: 45px;
 }
-.login p {
+.login h2 {
     font-size: 28px;
+    margin-bottom: 70px;
+}
+.login-img {
+    margin-top: 40px;
 }
 #halaman2 {
     display: flex;
     margin: auto;
+}
+.gap-2 {
+    padding-right: 150px;
 }
 
 @media screen and (max-width:375px) and (max-height:667px) {
@@ -56,27 +64,23 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light">
-        <div class="container">
-          <a class="navbar-brand"><img src="./images/logo eyeroom.png" width="80px" height="60px"></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ms-auto">
-              <li class="nav-item">
-                <a class="nav-link" href="./login.html"><img src="./images/login with google.png" width="250px" height="50px">
-                  </a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
     <section id="halaman2">
         <div class="login">
-            <h1>Selamat datang!</h1>
-            <img src="./images/pictures2.PNG" width="150px" height="60px"/>
+            <span>
+                <img src="./images/logo-eyeroom.png" width="15%"/>
+                <img src="./images/pictures2.PNG" width="28%"/>
+            </span>
+            <hr>
+            <h1>Selamat datang!</h1> 
+            <!--<img src="./images/pictures2.PNG" width="150px" height="60px"/>-->
             <h2>Aplikasi scan obat mata dan data obat kesehatan mata terpercaya!</h2>
+            <a href="login.html">
+                <div class="d-grid gap-2">
+                <button type="button" class="btn btn-success btn-lg">Login with Google</button>
+                </div>
+            </a>
+        </div>
+
         </div>
         <div class="login-img">
             <img src="./images/pictures1.PNG" width="700px" height="600px" />
