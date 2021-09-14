@@ -6,61 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>EYEROOM</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
-<style>
-  * {
-    text-decoration: none;
-    margin: 0px;
-    padding: 0px;
-    background-color:#DDFFBC;
-    font-family: 'Montserrat';
-    color: #432C81;
-}
-.nav ul li {
-    margin-top: 20px;
-}
-.cover {
-    width: 1100px;
-    margin: auto;
-    position: relative;
-}
-.login {
-    margin-top: 50px;
-    margin-left: 100px;
-}
-.login h1 {
-    margin-top: 70px;
-    font-size: 45px;
-}
-.login h2 {
-    font-size: 28px;
-    margin-bottom: 70px;
-}
-.login-img {
-    margin-top: 40px;
-}
-#halaman2 {
-    display: flex;
-    margin: auto;
-}
-.gap-2 {
-    padding-right: 150px;
-}
-
-@media screen and (max-width:375px) and (max-height:667px) {
-.cover {
-    position: relative;
-    width: 375px;
-    height: 667px;
-}
-.logo img{
-    position: absolute;
-    width: 85px;
-    height: 85px;
-    margin-left: 145px;
-    margin-top: 263px;
-}    
-}
-</style>
 </head>
 
 <body>
@@ -72,20 +17,88 @@
             </span>
             <hr>
             <h1>Selamat datang!</h1> 
-            <!--<img src="./images/pictures2.PNG" width="150px" height="60px"/>-->
             <h2>Aplikasi scan obat mata dan data obat kesehatan mata terpercaya!</h2>
             <a href="login.html">
                 <div class="d-grid gap-2">
-                <button type="button" class="btn btn-success btn-lg">Login with Google</button>
+                <button type="button" class="btn btn-success btn-lg" style="background-color: #2F5D62; border-radius: 20px;">Login with Google</button>
                 </div>
             </a>
         </div>
-
         </div>
         <div class="login-img">
             <img src="./images/pictures1.PNG" width="700px" height="600px" />
         </div>
     </section>
+
+
+    <style>
+        * {
+            text-decoration: none;
+            margin: 0px;
+            padding: 0px;
+            background-color:#DDFFBC;
+            font-family: 'Montserrat',sans-serif;
+            color: #432C81;
+        }
+        .login {
+            margin-top: 50px;
+            margin-left: 100px;
+        }
+        .login h1 {
+            margin-top: 70px;
+            font-size: 45px;
+        }
+        .login h2 {
+            font-size: 28px;
+            margin-bottom: 70px;
+        }
+        .login-img {
+            margin-top: 40px;
+        }
+        #halaman2 {
+            display: flex;
+            margin: auto;
+        }
+        .gap-2 {
+            padding-right: 200px;
+        }
+        
+        @media screen and (max-width:375px) and (max-height:667px) {
+        #halaman2 {
+        
+            display: block;
+            width: 375px;
+            height: 667px;
+        }
+        .login {
+            margin-top: 20px;
+            margin-left: 30px;
+        }
+        .login img {
+            width: 30%;
+        }
+        .login h1 {
+            margin-top: 30px;
+            font-size: 25px;
+        }
+        .login h2 {
+            font-size: 18px;
+            margin-bottom: 30px;
+        }
+        .login-img {
+            margin-top: 5px;
+            margin-left: 0px;
+        }
+        .login-img img {
+            width: 400px;
+            height: 300px;
+            justify-content: center;
+        }
+        .gap-2 {
+            padding-right: 0px;
+        }
+        }
+    </style>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
 </body>
 </html>

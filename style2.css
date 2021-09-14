@@ -1,9 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-}
-
-body{
+    font-family: 'Montserrat', sans-serif;
 }
 
 .main {
@@ -42,14 +40,45 @@ p.navbar-brand {
     background-image: url(../);
 }
 
+/* style search html */
+.cardly ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.card-title {
+    font-family: 'Montserrat', sans-serif;
+    color: #432C81;
+    font-weight: bold;
+}
+.card-text {
+    text-align: justify;
+    font-family: 'Montserrat', sans-serif;
+    color: #432C81;
+    font-weight: 500;
+}
+.card-img-top {
+    height: 270px;
+}
+.card {
+    justify-content: space-evenly;
+    margin: auto;
+    margin-right: 50px;
+    margin-top:20px;
+}
+.container-fluid img {
+    width: 80px;
+    height:60px
+}
+
 .gallery li {
     width: 255px;
     height: 255px;
     border-radius: %;
     float: ;
     position: relative;
-    margin-right: px;
-    margin-bottom: px;
+    margin-right: 0px;
+    margin-bottom: 0px;
     border:;
     overflow: hidden;
     margin: auto;
@@ -114,21 +143,19 @@ a.dropdown-item img{
     height: 20px
 }
 
+/* style deskripsi */
 .deskripsi {
     font-family:'Montserrat', sans-serif;
     color: #432C81;
+    margin-right: 30px;
 }
-
-.card {
-    justify-content: space-evenly;
-    margin: auto;
-    margin-right: 50px;
-    margin-top:20px;
+.deskripsi h6 {
+    text-align: justify;
+    line-height: 30px;
+    margin-top: 15px;
 }
+.deskripsi h5 {
 
-.container-fluid img {
-    width: 80px;
-    height:60px
 }
 
 #play {
@@ -154,6 +181,39 @@ a.dropdown-item img{
 }
 
 .button-tab {
-    margin-right: 110px;
-    margin-left: 110px;
+    justify-content: center;
+    align-content: space-between;
+    display: flex;
+}
+.btn-outline-success {
+    width: 500px;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+@media screen and (max-width:375px) and (max-height:667px) {
+/* style menutab html */
+.judesk {
+    font-size: 25px;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    margin-top: 20px;
+    text-align: center;
+}
+.judesk img{
+    width: 150px;
+}
+.button-tab  {
+    display: block;
+    margin-right: 0px;
+    text-align: center;
+}
+.btn-outline-success {
+    width: auto;
+    margin-bottom: 20px;
+    margin-right: 0px;
+    margin-left: 0px;
+    justify-content: center;
+    cursor:zoom-out;
+}
 }

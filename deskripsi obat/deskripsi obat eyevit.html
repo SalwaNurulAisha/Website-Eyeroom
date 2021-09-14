@@ -4,7 +4,7 @@
     <!-- Required meta tags -->
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rell="stylesheet" href="style2.css">
+<link rell="stylesheet" href="../style2.css">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;900&display=swap" rel="stylesheet">
@@ -24,7 +24,7 @@
         outline: none;
     }
     #play {
-        background-image: url(./images/unmute2.png);
+        background-image: url(../images/unmute2.png);
     }
 </style>
 
@@ -32,8 +32,8 @@
 <body style="background-color: #DDFFBC;">
     <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container-fluid">
-        <a href="search.html"><button type="button" class="btn btn-outline-light"style="width:100px; height:40px; margin-left:110px; position: relative;">Back</button></a>
-          <p class="navbar-brand" href="#" style="color: white;">Madu Vitomata</p>
+        <a href="../search.html"><button type="button" class="btn btn-outline-light"style="width:100px; height:40px; margin-left:110px; position: relative;">Back</button></a>
+          <p class="navbar-brand" href="#" style="color: white;">Eyevit</p>
           <div class="dropdown">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item dropdown">
@@ -47,7 +47,7 @@
               <li>
                   <a class="dropdown-item" href="https://klinikmataminus.com/chat/pesan-paket-silver/"><img src="https://t3.ftcdn.net/jpg/02/96/91/42/240_F_296914204_8F0EmCJh8nVo7c0MYJtwUdEqnG1xs6Bq.jpg"/><h9> with browser</h9></a></li>
               <li>
-                  <a class="dropdown-item" href="#"><img src="https://t3.ftcdn.net/jpg/03/03/05/78/240_F_303057896_UOqpWEaLAEwRVFlh5OUq0RIB3EfHNnAi.jpg"/> with shopee</a></li>
+                  <a class="dropdown-item" href="https://shopee.co.id/Obat-Mata-Minus-Madu-Vitomata-Obat-Herbal-Mata-Mines-Mata-Merah-Berair-katarak-Glukoma-i.237744835.6361588799?ads_keyword=wkdaelpmissisiht&adsid=26755892&campaignid=15580633&position=0"><img src="https://t3.ftcdn.net/jpg/03/03/05/78/240_F_303057896_UOqpWEaLAEwRVFlh5OUq0RIB3EfHNnAi.jpg"/> with shopee</a></li>
             </ul>
           </li>
         </ul>
@@ -60,7 +60,7 @@
 
 <script>
     var musik = new Audio();
-    musik.src = "audio/music1.mp3"
+    musik.src = "../audio/music1.mp3"
     musik.loop = true;
     musik.play();
 
@@ -72,10 +72,10 @@
         function fplay(){
             if(musik.paused) {
                 musik.play();
-                play.style.background="url(./images/unmute2.png)";
+                play.style.background="url(../images/unmute2.png)";
             }else {
                 musik.pause();
-                play.style.background="url(./images/mute2.png)";
+                play.style.background="url(../images/mute2.png)";
             }
         }
     }
@@ -87,8 +87,8 @@
         <ul class="gallery">
             <li>
                 <a href=" ">
-                <img src="https://klinikmataminus.com/wp-content/uploads/2021/06/Vitomata-1-1.jpg" alt="VITAMIN"/>
-                <span>VITAMIN (Ramuan Tradisiona)</span>
+                <img src="../images/eyevit.jpg" alt="EYEVIT"/>
+                <span>Suplemen & Terapi Penunjang</span>
                  </a>
             </li>
             <div class="clear"></div>
@@ -97,48 +97,68 @@
     <div class="container">
         <ul class="deskripsi">
             <p>
-                Madu Vitoma merupakan ramuan tradisional nenek moyang yang diproses secara modern dan higienis yang dikemas dalam bentuk liquid dengan 100% mengandung ekstrak herbal alam. 
-                Madu Vitomata teruji secara ilmiah dapat membantu menjaga kesehatan mata dan mengatasi masalah kesehatan mata Anda dan keluarga.
-                Madu Vitomata bereaksi cepat karena diracik dan diformulasikan khusus dari bahan-bahan ekstraksi herbal terbaik dalam bentuk Liquid sehingga sangat mudah menyerap ke dalam tubuh Anda.
+                Eyevit adalah suplemen yang mengandung Ekstrak Billberry, Vitamin A, Beta karoten, Vitamin E, 
+                Lutein, Zeaxanthin, Selenium dan Zinc digunakan untuk memenuhi kebutuhan nutrisi pada mata. 
+                Eyevit tersedia dalam bentuk sediaan tablet dan sirup. Eyevit sirup dapat dikonsumsi oleh semua kalangan usia, baik untuk anak-anak, orang dewasa, maupun manula.
+                Biasanya Eyevit dalam bentuk sediaan Tablet digunakan untuk anak usia diatas 12 tahun dan orang dewasa, sedangkan Eyevit dalam bentuk sirup digunakan untuk anak usia dibawah 12 tahun.
             </p>
             <li>
                 <h5>Komposisi</h5>
-                <p>1) Madu hutan murni</p>
-            <p>2) Bilberry</p></li>
+                <p>1) Ekstrak kering bilberry 80 mg</p>
+                <p>2) Retinol 1.600 IU</p>
+                <p>3) β-carotene 5 mg</p>
+                <p>4) Vitamin E 40 mg</p>
+                <p>5) Lutein 250 mcg</p>
+                <p>6) Zeaxanthin 60 mcg</p>
+                <p>7) Selenium 15 mcg</p>
+                <p>8) Zinc 5 mg</p>
+            </li>
             <li>
                 <h5>Manfaat</h5>
-                <p>1) Menjaga kesehatan mata, membuat mata lebih cemerlang dan segar.</p>
-                <p>2) Membantu mengatasi mata lelah atau gangguan mata karena terlalu lama membaca, menonton TV, bermain komputer, mengendarai kendaraan, dll.</p>
-                <p>3) Membantu menghambat proses mata minus.</p>
-                <p>4) Mencegah dan membantu masa pemulihan akibat penyakit glaucoma, katarak, gangguan retina, diabetic retinopathy, dll.</p>
-                <p>5) Mencegah terjadinya rabun senja</p>
-                <p>6) Mengatasi Mata Merah, Berair, Gatal, Belekan, dan Bengkak</p>
-                <p>7) Menghilangkan kantung mata</p>
+                <p>1) Menangkal radikal bebas yang dapat merusak sel-sel mata seperti radiasi yang dipancarkan layar komputer atau TV.</p>
+                <p>2) Mencegah terjadinya katarak.</p>
+                <p>3) Mempertajam penglihatan mata.</p>
+                <p>4) Mempercepat adaptasi dalam gelap.</p>
+            </li>
+            <li>
+                <h5>Dosis & Cara Penggunaan</h5>
+                <p>1) Dosis penggunaan Eyevit Tablet
+                    Dosis penggunaan untuk dewasa: diminum 2-3x sehari 1 tablet.</p>
+                <p>2) Dosis penggunaan Eyevit Sirup:<br>
+                    -Dewasa: 1 sendok takar (5 ml), diminum 2-3 kali sehari.<br>
+                    -Anak-anak: 1 sendok takar (5 ml), diminum 1 kali sehari.</p>
+            </li>
+            <li>
+                <h5>Waktu Penyajian</h5>
+                <p>Sesudah makan.</p>
+            </li>
+            <li>
+                <h5>Harap diperhatikan</h5>
+                <p>Bagi penderita hipersensitif terhadap obat. Konsultasikan terlebih dahulu ke dokter sebelum digunakan.</p>
+            </li>
+            <li>
+                <h5>Cara Penyimpanan</h5>
+                <p>Simpan pada suhu di bawah 30 derajat Celcius, di tempat kering dan terhindar dari cahaya.</p>
             </li>
             <li>
                 <h5>Harga</h5>
-                <p>Rp 145.000,-/botol</p></li>
+                <p>Rp 37.000,-/botol</p></li>
             <li>
                 <h5>Isi</h5>
-                <p>280 gram/botol</p>
+                <p> -60 ml/botol<br> -6 tablet/strip</p>
             </li>
             <li>
                 <h5>BPOM</h5>
-                    <p>TR203641411</p>
-                    <a href="https://cekbpom.pom.go.id//home/produk/dbgo6ndasj2aih8go3smgrf331/all/row/10/page/1/order/4/DESC/search/0/TR203641411">klik disini untuk cek BPOM produk</a>
+                    <p>SD212667051</p>
+                    <a href="https://cekbpom.pom.go.id//home/produk/vne8p5vace3cgrovmh72mljl50/all/row/10/page/1/order/4/DESC/search/1/eyevit">klik disini untuk cek BPOM produk</a>
             </li>
             <li>
                 <h5>
                     Produksi
                 </h5>
                 <p>
-                    oleh PT. Elanazma Prima
+                    oleh Lapi Laboratories
                 </p>
-            </li>
-            <li>
-                <h5>Distribusi</h5>
-                <p>oleh CV. Fira Herbalindo</p>
-                <p>(Bekasi-Indonesia)</p>
             </li>
         </ul>
       </div>
@@ -152,6 +172,6 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="../style2.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
   </head>

@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rell="stylesheet" href="../style2.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;900&display=swap" rel="stylesheet">
+
+<!-- Bootstrap CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+<title>Welcome to EYEROOM</title>
+
+<!--audio-->
+<style>
+    button {
+        border: none;
+        width: 32px;
+        height: 32px;
+        cursor: pointer;
+        outline: none;
+    }
+    #play {
+        background-image: url(../images/unmute2.png);
+    }
+</style>
+
+</head>
+<body style="background-color: #DDFFBC;">
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+        <a href="../search.html"><button type="button" class="btn btn-outline-light"style="width:100px; height:40px; margin-left:110px; position: relative;">Back</button></a>
+          <p class="navbar-brand" href="#" style="color: white;">Blackmores Lutein Vision</p>
+          <div class="dropdown">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color: white;">
+              More information
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="https://youtu.be/vLefRuwzliY">Testimoni 1</a></li>
+              <li><a class="dropdown-item" href="https://youtu.be/PBYMNsBnBLQ">Testimoni 2</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li>
+                  <a class="dropdown-item" href="https://klinikmataminus.com/chat/pesan-paket-silver/">
+                    <img src="https://t3.ftcdn.net/jpg/02/96/91/42/240_F_296914204_8F0EmCJh8nVo7c0MYJtwUdEqnG1xs6Bq.jpg"/><h9> with browser</h9></a></li>
+              <li>
+                  <a class="dropdown-item" href="https://shopee.co.id/Blackmores-Odourless-Fish-Oil-1000mg-30-200-90-tablet-400-tablet-MINI-FISH-OIL-400-i.84274617.1683646075?ads_keyword=wkdaelpmissisiht&adsid=37340678&campaignid=22527140&position=3">
+                    <img src="https://t3.ftcdn.net/jpg/03/03/05/78/240_F_303057896_UOqpWEaLAEwRVFlh5OUq0RIB3EfHNnAi.jpg"/> with shopee</a></li>
+            </ul>
+          </li>
+        </ul>
+       </div>
+        </div>
+      </nav>
+    
+      <!--audio-->
+<button id="play"> </button>
+
+<script>
+    var musik = new Audio();
+    musik.src = "../audio/music1.mp3"
+    musik.loop = true;
+    musik.play();
+
+    function mulaiAudio(){
+        var play=document.getElementById("play");
+
+        play.addEventListener('click', fplay);
+
+        function fplay(){
+            if(musik.paused) {
+                musik.play();
+                play.style.background="url(../images/unmute2.png)";
+            }else {
+                musik.pause();
+                play.style.background="url(../images/mute2.png)";
+            }
+        }
+    }
+    window.addEventListener('load', mulaiAudio);
+</script>
+
+
+    <div class="container">
+        <ul class="gallery">
+            <li>
+                <a href=" ">
+                <img src="../images/blackmores.jpg" alt="BLACKMORES"/>
+                <span>Vitamin & Supplement
+                </span>
+                 </a>
+            </li>
+            <div class="clear"></div>
+        </ul>
+    </div>
+    <div class="container">
+        <ul class="deskripsi">
+            <h6>Blackmores Lutein-Vision merupakan suplemen kesehatan mata yang mengandung nutrisi Lutein dan Selenium yang keduanya berperan penting dalam membantu mendukung fungsi kesehatan mata dan juga dapat membantu mengurangi kerusakan makula (bagian tengah retina mata) akibat radikal bebas.</h6>
+            <h6>Blackmores Lutein-Vision ini sangat efektif dikonsumsi bagi mereka yang sudah berusia 35-40 tahun yang mengalami masalah rabun dekat (plus), selain itu suplemen ini juga dapat dikonsumsi sebagai asupan nutrisi untuk menjaga kesehatan mata agar terhindar dari kerusakan makula (bagian tengah retina mata) akibat penggunaan gadget seperti laptop, tab, handphone dengan intensitas tinggi.</h6>
+            <h6>Seiring dengan bertambahnya usia, masalah mata seperti rabun dekat, rabun jauh, silinder dan gangguan mata lainnya akan mulai muncul. Namun dengan tingginya penggunaan gadget (handphone, laptop, dll), serta menipisnya lapisan ozone yang menyebabkan meningkatkan radiasi sinar matahari, maka kerusakan mata pun dapat terjadi di usia muda. Oleh karena itu untuk membantu mencegah hal itu terjadi, maka sangat diperlukan asupan nutrisi Lutein & Zeaxanthin yang bagus untuk kesehatan mata.</h6>
+            <li>
+                <h5>Komposisi</h5>
+                <p>1) Ekstrak Marigold 80mg (setara dengan bunga kering 600mg).</p>
+                <p>2) lutein 6mg.</p>
+                <p>3) Selenomethonin (Selenium 26 µg) 64.5 µg.</p>
+                <p>4) d-alpha-Tokoferol (vitamin E alami  250 IU) 168 mg.</p>
+            </li>
+            <li>
+                <h5>Manfaat</h5>
+                <p>1) Membantu mengurangi kelelahan pada mata.</p>
+                <p>2) Membantu melindungi makula (bagian tengah retina mata) dari kerusakan akibat radikal bebas (yang dapat menyebabkan kehilangan penglihatan bagian tengah, namun masih bisa melihat pada bagian tepi) berkat kandungan antioksidan.</p>
+                <p>3) Memberikan nutrisi untuk meningkatkan kepadatan pigmen makula pelindung retina.</p>
+                <p>4) Membantu menyaring cahaya, baik sinar UV dari sinar matahari dan sinar biru dari gadget.</p>
+            </li>
+            <li>
+                <h5>Dosis & Cara Penggunaan</h5>
+                <p>Dewasa: 1 kapsul sehari setelah makan, atau sesuai petunjuk dokter.</p>
+            </li>
+            <li>
+                <h5>Waktu Penyajian</h5>
+                <p>Sesudah makan.</p>
+            </li>
+            <li>
+                <h5>Harap diperhatikan</h5>
+                <p>-Bagi ibu hamil dan menyusui harap konsultasikan terlebih dahulu kepada dokter.<br>
+                    -Produk ini mengandung Selenium yang akan berbahaya jika dikonsumsi berlebih. Jumlah yang disarankan adalah 150 µg.<br>
+                    -Blackmores jenis ini mengandung ikan dan sulfit, sehingga perlu diwaspadai bagi Anda yang memiliki alergi terhadap bahan-bahan tersebut.</p>
+            </li>
+            <li>
+                <h5>Cara Penyimpanan</h5>
+                <p>Simpan di bawah 30° C, ditempat yang kering, dan jauhkan dari paparan sinar matahari langsung.</p>
+            </li>
+            <li>
+                <h5>Harga</h5>
+                <p>Rp400.200 - Rp691.200,-/botol</p></li>
+            <li>
+                <h5>Isi</h5>
+                <p> -60 kapsul lunak / botol kaca.</p>
+            </li>
+            <li>
+                <h5>BPOM</h5>
+                    <p>SI164307161</p>
+                    <a href="">klik disini untuk cek BPOM produk.</a>
+            </li>
+            <li>
+                <h5>
+                    Produksi
+                </h5>
+                <p>
+                    oleh Kalbe Blackmores Nutrition.
+                </p>
+            </li>
+        </ul>
+      </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+</body>
+</html>
+  
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../style2.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+  </head>
