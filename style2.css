@@ -67,8 +67,8 @@ p.navbar-brand {
     margin-top:20px;
 }
 .container-fluid img {
-    width: 80px;
-    height:60px
+    width: 100px;
+    height:50px
 }
 
 .gallery li {
@@ -117,6 +117,8 @@ p.navbar-brand {
     width: 255px;
     height: 255px;
     border-radius: 50%;
+    justify-content: center;
+    align-items: center;
 }
 
 a.tbl-biru {
@@ -155,7 +157,11 @@ a.dropdown-item img{
     margin-top: 15px;
 }
 .deskripsi h5 {
-
+    font-weight: bold;
+    margin-top: 30px;
+}
+.deskripsi p {
+    line-height: 25px;
 }
 
 #play {
@@ -168,6 +174,13 @@ a.dropdown-item img{
     margin-left: 20px;
 }
 
+/* style menutab html */
+.logo img {
+    margin-left: 110px;
+}
+.btn-outline-light {
+    margin-right: 110px;
+}
 .judesk {
     font-size: 40px;
     font-family: 'Montserrat';
@@ -191,8 +204,17 @@ a.dropdown-item img{
     margin-left: 50px;
 }
 
-@media screen and (max-width:375px) and (max-height:667px) {
+@media screen and (max-width:500px) {
 /* style menutab html */
+.logo img{
+    margin-left: 10px;
+}
+.btn-outline-light {
+    margin-right: 10px;
+}
+.btn-outline-light {
+    margin-right: 0px;
+}
 .judesk {
     font-size: 25px;
     font-family: 'Montserrat';

@@ -11,9 +11,6 @@
 
 <title>Welcome to EYEROOM</title>
 <style>
-  div img{
-    border-radius: 50%;
-  }
   #foto-pp {
     margin-top: 100px;
     text-align: center;
@@ -23,6 +20,17 @@
     margin-left: 350px;
     margin-right: 350px;
     margin-bottom: 50px;
+  }
+  .info {
+    position: relative;
+    display: flex;
+    flex: none;
+    align-items: center;
+    height: 60px;
+  }
+  .icon {
+    padding-left: 10px;
+    padding-right: 20px;
   }
 </style>
 
@@ -39,23 +47,38 @@
         </div>
       </nav>
       <div id="foto-pp">
-        <img src="images/mute2.png" width="15%"/>
+        <img src="./images/user.png" width="15%"/>
       </div>
       <div id="keterangan">
-        <span>
-        <ul class="name">
-          <li><img src="images/user.png"/></li>
-        <li><h6 class="card-subtitle mb-2 text-muted">Name</h6>
-        <h4 class="card-title">Eye Room</h4>
-        </li>
-        </ul>
-        </span>
+        <div class="info">
+          <div class="icon">
+            <img src="./images/user.png" width="45px"/>
+          </div>
+          <div>
+            <h6 class="card-subtitle mb-2 text-muted">Nama</h6>
+            <h4 class="card-title">Eye Room</h4>
+          </div>
+        </div>
         <hr>
-        <h6 class="card-subtitle mb-2 text-muted">Status</h6>
-        <h4 class="card-title">Pelajar</h4>
+        <div class="info">
+          <div class="icon">
+            <img src="./images/information-button.png" width="45px"/>
+          </div>
+          <div>
+            <h6 class="card-subtitle mb-2 text-muted">Status</h6>
+            <h4 class="card-title">Pelajar</h4>
+          </div>
+        </div>
         <hr>
-        <h6 class="card-subtitle mb-2 text-muted">Email</h6>
-        <h4 class="card-title">eyeroom@gmail.com</h4>
+        <div class="info">
+          <div class="icon">
+            <img src="./images/email.png" width="45px"/>
+          </div>
+          <div>
+            <h6 class="card-subtitle mb-2 text-muted">Email</h6>
+            <h4 class="card-title">eyeroom@gmail.com</h4>
+          </div>
+        </div>
       </div>
 
     <!--<div class="container" style="width:400px;">
