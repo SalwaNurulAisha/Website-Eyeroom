@@ -58,7 +58,7 @@ p.navbar-brand {
     font-weight: 500;
 }
 .card-img-top {
-    height: 270px;
+    height: 240px;
 }
 .card {
     justify-content: space-evenly;
@@ -70,7 +70,6 @@ p.navbar-brand {
     width: 100px;
     height:50px
 }
-
 .gallery li {
     width: 255px;
     height: 255px;
@@ -83,7 +82,6 @@ p.navbar-brand {
     overflow: hidden;
     margin: auto;
 }
-
 .gallery li span {
     display: block;
     background-color: rgba(200,200,200,.5);
@@ -103,16 +101,13 @@ p.navbar-brand {
     transform: scale(0) rotate(0);
     transition: .3s;
 }
-
 .gallery li a:hover span {
     opacity: 1;
     transform: scale(1) rotate(360deg);
 }
-
 .clear {
     clear: both;
 }
-
 .gallery li img {
     width: 255px;
     height: 255px;
@@ -120,7 +115,6 @@ p.navbar-brand {
     justify-content: center;
     align-items: center;
 }
-
 a.tbl-biru {
     background: #000000;
     border-radius: 20px;
@@ -130,16 +124,13 @@ a.tbl-biru {
     cursor: pointer;
     font-weight: bold;
 }
-
 a.tbl-biru:hover {
     background: #b9b8b9;
     text-decoration: none;
 }
-
 .dropdown {
     margin-right: 60px;
 }
-
 a.dropdown-item img{
     width: 20px;
     height: 20px
@@ -163,7 +154,6 @@ a.dropdown-item img{
 .deskripsi p {
     line-height: 25px;
 }
-
 #play {
     width: 64px;
     height:64px;
@@ -188,11 +178,9 @@ a.dropdown-item img{
     margin-top: 100px;
     text-align: center;
 }
-
 .judesk img{
     width:200px;
 }
-
 .button-tab {
     justify-content: center;
     align-content: space-between;
@@ -211,9 +199,6 @@ a.dropdown-item img{
 }
 .btn-outline-light {
     margin-right: 10px;
-}
-.btn-outline-light {
-    margin-right: 0px;
 }
 .judesk {
     font-size: 25px;
@@ -238,4 +223,7 @@ a.dropdown-item img{
     justify-content: center;
     cursor:zoom-out;
 }
+
+/* style search html */
+
 }
